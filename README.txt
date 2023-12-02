@@ -37,7 +37,7 @@ Note: order.png and userScoop.png are images that are the above images layered.
 
 **The following were made by Cassie Stevens using Canva:**
 * Failure.png
-    * https://www.canva.com/design/DAF1Y4PBMkc/HYjRvLhu2WPiEk8RGjjYMA/edit?utm_content=DAF1Y4PBMkc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+    * https://www.canva.com/design/DAF1ySY-XUw/EHPN6bGGDOBD1-gSFbXI_w/edit?utm_content=DAF1ySY-XUw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 * How to Play.png
     * https://www.canva.com/design/DAF1bc_MzYk/dzjhurX9kbj7EBKTFJvk2g/edit?utm_content=DAF1bc_MzYk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 * Ice Cream Parlor Color.png

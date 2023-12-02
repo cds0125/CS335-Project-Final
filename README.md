@@ -1,4 +1,4 @@
-# CS335 Project
+# CS 335 Project
 Libraries used:
 -----------------------
     PyQt6

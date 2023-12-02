@@ -112,7 +112,7 @@ class StartMenu(QMainWindow):
 # Game Over pop up window (displays message, score, and close option)
 class GameOver(QDialog):
         
-        def __init__(self, score = None): # score paramater is passed in from Simon_Says() and is players score at the point the game ended
+        def __init__(self, score = None): # score parameter is passed in from Simon_Says() and is players score at the point the game ended
             super().__init__()
 
             # play mario song
@@ -199,7 +199,7 @@ class Simon_Says(QMainWindow):
         self.opt_layout = QHBoxLayout()
         self.opt_layout.addWidget(self.button_start)
         self.opt_layout.addWidget(self.button_exit)
-        # Fith row, Current score
+        # Fifth row, Current score
         self.score_label = QLabel(f"Score: {self.click_count}")
         self.score_label.setStyleSheet('font-size: 20px; font-family: Broadway; color: white;')
         # Center and align each row vertically
@@ -218,7 +218,7 @@ class Simon_Says(QMainWindow):
 
         self.game_active = False # When 'Start' clicked, game loops while true, necessary to have turns (each turn adds color)
 
-    def makeGuess(self, color): # assgigned to button clicks, avaliable only after starting game, registers a singular color clicked
+    def makeGuess(self, color): # assigned to button clicks, available only after starting game, registers a singular color clicked
 
         # if: game loop is true, and: the button color clicked is equal to the current button in the sequence, and: the color sequence for the user's current turn is not completed (clicks by user remain)
         if self.game_active and color == self.Array[self.click_count] and self.click_count < self.Array.size: 
@@ -301,7 +301,7 @@ class Simon_Says(QMainWindow):
 # Code For Matching Game
 #---------------------------------------------------------------------------------------------------------
 
-# Inital window for difficulty selection.
+# Initial window for difficulty selection.
 class DifficultySelection(QWidget):
     def __init__(self):
         super().__init__()
